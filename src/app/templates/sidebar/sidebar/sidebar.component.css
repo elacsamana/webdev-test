@@ -1,0 +1,59 @@
+.sidebar-header {
+    background-color: rgb(228, 226, 227);
+}
+
+.btn-toggle-nav {
+    margin-bottom: 10px;
+}
+
+.btn-toggle-nav a {
+    display: inline-flex;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: rgb(1, 167, 225) !important;
+}
+
+strong {
+    padding-right: 2px;
+    color: rgb(1, 167, 225) !important;
+}
+
+li {
+    font-size: 15px;
+}
+
+.bubble {
+    background-color: rgb(228, 226, 227);
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 650;
+    font-size: 12px;
+    padding: 12px 24px;
+    position: relative;
+}
+
+.bubble:after,
+.bubble:before {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    bottom: -20px;
+    content: '';
+    left: 80%;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.bubble:before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 23px solid;
+    border-top-color: rgb(228, 226, 227); 
+    bottom: -7px;
+    margin-left: -23px;
+}
+
+
